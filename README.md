@@ -1,10 +1,9 @@
-# PyTorch Flask API
+# Customized Tweet Generator from Uploaded Images
 
+The repo is modified from [PyTorch Flask API](https://github.com/avinassh/pytorch-flask-api-heroku).
 
-Check the demo [here](https://pytorch-imagenet.herokuapp.com/).
-
-If you'd like to check a super simple API server, then check [this repo](https://github.com/avinassh/pytorch-flask-api).
-
+## Description
+This application used [Pytorch](https://pytorch.org/) to train a model which takes an image and generate a customized tweet (post). The backend services are developed using [Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
 ## Requirements
 
@@ -12,18 +11,15 @@ Install them from `requirements.txt`:
 
     pip install -r requirements.txt
 
+## Model and Vocab
+
+Please download model and vocab from [here](https://www.cs.virginia.edu/~lh5jv/models/) and add them under the model directory in this repo.
 
 ## Local Deployment
 
 Run the server:
 
     python app.py
-
-
-## Heroku Deployment
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/avinassh/pytorch-flask-api-heroku)
-
 
 ## License
 

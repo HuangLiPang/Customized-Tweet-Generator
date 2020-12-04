@@ -8,21 +8,28 @@ This application focused on generating customized tweet (post) from the image th
 
 In this demo, we used the dataset from Taiwanese president's official [Twitter](https://twitter.com/iingwen) to train the model. The dataset is crawled from [Twitter API](https://developer.twitter.com/en/docs/twitter-api) and it includes the tweets from 2010 to 2020 with total 3200 data. You can find the dataset [here](./dataset) and the code for training the model [here](./model).
 
-## Requirements
+## Local Deployment
+
+Clone this repository:
+
+    git clone https://github.com/HuangLiPang/Customized-Tweet-Generator.git
 
 Install the dependecies from `requirements.txt`:
 
     pip install -r requirements.txt
 
-## Model and Vocab
+Download the model and the vocab from [here](https://www.cs.virginia.edu/~lh5jv/models/) and add them under the model directory in this repository.
 
-Please download the model and the vocab from [here](https://www.cs.virginia.edu/~lh5jv/models/) and add them under the model directory in this repository.
-
-## Local Deployment
+    cd model
+    wget https://www.cs.virginia.edu/~lh5jv/models/state_dict.pth
+    wget https://www.cs.virginia.edu/~lh5jv/models/vocab.pth
 
 Run the server:
 
+    cd ..
     python app.py
+
+If you have questions, feel free to post an issue [here](https://github.com/HuangLiPang/Customized-Tweet-Generator/issues).
 
 ## License
 

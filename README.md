@@ -8,6 +8,8 @@ This application focused on generating customized tweet (post) from the image th
 
 In this demo, we used the dataset from Taiwanese president's official [Twitter](https://twitter.com/iingwen) to train the model. The dataset is crawled from [Twitter API](https://developer.twitter.com/en/docs/twitter-api) and it includes the tweets from 2010 to 2020 with total 3200 data. You can find the dataset [here](./dataset) and the code for training the model [here](./model).
 
+For more information, please check the paper [here](./docs/Customized_Tweet_Generator_from_Uploaded_Images.pdf).
+
 ## Local Deployment
 
 Clone this repository:

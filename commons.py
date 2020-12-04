@@ -207,7 +207,7 @@ class ImageCaptioner(pl.LightningModule):
 
 def load_vocab():
     base_path = os.path.abspath(os.path.dirname(__file__))
-    path = os.path.join(base_path, "model/vocab_remove_url.pth")
+    path = os.path.join(base_path, "model/vocab.pth")
     vocab = torch.load(path)
     return vocab
 
@@ -240,7 +240,7 @@ textTokenizer.vocab = load_vocab()
 def get_model():
     model = ImageCaptioner(textTokenizer)
     base_path = os.path.abspath(os.path.dirname(__file__))
-    path = os.path.join(base_path, "model/state_dict_remove_url.pth")
+    path = os.path.join(base_path, "model/state_dict.pth")
     model.load_state_dict(torch.load(path))
     model.eval()
     return model

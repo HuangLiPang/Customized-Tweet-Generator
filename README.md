@@ -2,6 +2,9 @@
 
 The repo is modified from [PyTorch Flask API](https://github.com/avinassh/pytorch-flask-api-heroku).
 
+<img src="https://i.imgur.com/MQw82v6.png" width="250">  <img src="https://i.imgur.com/qd9LjSz.png" width="250">  <img src="https://i.imgur.com/5mohmdz.png" width="250">
+
+
 ## Description
 
 This application focused on generating customized tweet (post) from the image the user uploaded. The model is built with [Pytorch](https://pytorch.org/) which takes an image and generates a customized post. The backend services are developed using [Flask](https://flask.palletsprojects.com/en/1.1.x/).

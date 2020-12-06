@@ -2,16 +2,19 @@
 
 The repo is modified from [PyTorch Flask API](https://github.com/avinassh/pytorch-flask-api-heroku).
 
-<img src="https://i.imgur.com/MQw82v6.png" width="250">  <img src="https://i.imgur.com/qd9LjSz.png" width="250">  <img src="https://i.imgur.com/5mohmdz.png" width="250">
+<img src="https://i.imgur.com/MQw82v6.png" width="250">
 
 
 ## Description
 
 This application focused on generating customized tweet (post) from the image the user uploaded. The model is built with [Pytorch](https://pytorch.org/) which takes an image and generates a customized post. The backend services are developed using [Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
-In this demo, we used the dataset from Taiwanese president's official [Twitter](https://twitter.com/iingwen) to train the model. The dataset is crawled from [Twitter API](https://developer.twitter.com/en/docs/twitter-api) and it includes the tweets from 2010 to 2020 with total 3200 data. You can find the dataset [here](./dataset) and the code for training the model [here](./model).
+In this demo, we used the dataset from Taiwanese president's official [Twitter](https://twitter.com/iingwen) to train the model. The dataset is crawled from [Twitter API](https://developer.twitter.com/en/docs/twitter-api) and it includes the tweets from 2010 to 2020 with total 3200 data. You can find the [dataset](./dataset) and the code for training the [model](./model).
 
-For more information, please check the paper [here](./docs/Customized_Tweet_Generator_from_Uploaded_Images.pdf).
+For more information, please check the [paper](./docs/Customized_Tweet_Generator_from_Uploaded_Images.pdf) and the introduction [video](https://www.youtube.com/watch?v=E0c_ig-5MFs).
+
+## Customized Post vs Original Post
+<img src="https://i.imgur.com/qd9LjSz.png" width="250">  <img src="https://i.imgur.com/5mohmdz.png" width="250">
 
 ## Local Deployment
 
